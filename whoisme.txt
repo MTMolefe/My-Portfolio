@@ -1,0 +1,169 @@
+  <htm
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MT Molefe - Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e1e2f;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #1e1e2f;
+      color: white;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+
+    .project, .job, .edu, .diploma, .Advanced {
+      margin-bottom: 20px;
+    }
+
+    .project-title {
+      font-weight: bold;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #1e1e2f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .resume-btn {
+      display: inline-block;
+      background: #1e1e2f;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e2f;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MT Molefe</h1>
+    <p>Developer | Designer | Tech Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate full stack developer with experience in creating responsive, user-friendly websites and applications. I love solving problems and bringing ideas to life.
+	I am currently 22, i was born in 2002 december 06, I stay in modderfontein Sandton. I have a diploma in Information Technology from Vaal Univeristy of technology, in 2024 I attended a microsoft short programe at Dynamic DNA which I aquired microsoft AZ900, AZ204 and PL300 certificate.In 2025, I am currently enrolled in Vaal Univeristy of Technology doing Advanced diploma in Information Technology and also doing a one year learnership at Dynamic DNA</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+	  <span>C#</span>
+      <span>CSS</span>
+	  <span>Azure</span>
+	  <span>Python</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>Git</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <p class="project-title">Ordering Website</p>
+      <p>Built a responsive Order system website using HTML, CSS, and JavaScript to showcase my work. <a href="index.html"> Project 1 </a></p>
+    </div>
+    <div class="project">
+      <p class="project-title">Todo App</p>
+      <p>Created a simple task management app with vanilla JS and local storage.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+    <div class="job">
+      <p><strong>Microsoft learnership </strong> at Dynamic DNA (August 2024 - present)</p>
+      <p>Achieved microsoft Cerificates, learned about the work environment. We developed application using github</p>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Education</h2>
+    <div class="edu">
+      <p><strong>Matric</strong> at Meridian Rustenburg (January 2020 - December 2020) </p>
+      <p>Achieved Matric with one distinction</p>
+	  </div>
+	  <div class = "diploma">
+	  <p><strong>Diploma in Information Technology</strong> at Vaal University of Technology(January 2021 - December 2023)</p>
+	  <p> Graduated with 71 GPA </p>
+    </div>
+	<div class = "Advanced">
+	<p><strong>Advanced Diploma in Information Technology</strong> at Vaal University of Technology (January 2025 - Present)</p>
+	</div>
+    
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="Tlotlomolefem@gmail.com">Email Me</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/tlotlo-molefe"target="_blank">LinkedIn</a>
+    </div>
+    <a href="Molefe Tlotlo.pdf" class="resume-btn" download>Download Resume</a>
+  </section>
+
+  <footer>
+    &copy; 2025 MT Molefe
+  </footer>
+
+</body>
+</html>
